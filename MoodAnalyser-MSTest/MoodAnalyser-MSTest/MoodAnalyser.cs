@@ -18,14 +18,22 @@ namespace MoodAnalyser_MSTest
         }
         public string Analyzer()  //Analyzer method find mood
         {
-            if (this.message.ToLower().Contains("happy"))
+            try
+            {
+                if (this.message.ToLower().Contains("happy"))
+                {
+                    return "happy";
+                }
+                else
+                {
+                    return "sad";
+                }
+            }
+            catch
             {
                 return "happy";
             }
-            else
-            {
-                return "sad";
-            }
+            
         }
     static void Main(string[] args)
         {
