@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-MSTest\bin\Debug\MoodAnalyser-MSTest.exe.config
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-MSTest\bin\Debug\MoodAnalyser-MSTest.exe
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-MSTest\bin\Debug\MoodAnalyser-MSTest.pdb
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-MSTest\obj\Debug\MoodAnalyser-MSTest.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-MSTest\obj\Debug\MoodAnalyser-MSTest.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-MSTest\obj\Debug\MoodAnalyser-MSTest.exe
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-MSTest\obj\Debug\MoodAnalyser-MSTest.pdb

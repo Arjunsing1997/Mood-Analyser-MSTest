@@ -1,0 +1,17 @@
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\bin\Debug\MoodAnalyser-Test1.dll
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\bin\Debug\MoodAnalyser-Test1.pdb
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\bin\Debug\MoodAnalyser-MSTest.exe
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\bin\Debug\MoodAnalyser-MSTest.pdb
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\bin\Debug\MoodAnalyser-MSTest.exe.config
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\obj\Debug\MoodAnalyser-Test1.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\obj\Debug\MoodAnalyser-Test1.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\obj\Debug\MoodAnalyser-Test1.csproj.CopyComplete
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\obj\Debug\MoodAnalyser-Test1.dll
+C:\Users\HP\source\repos\Mood-Analyser-MSTest\MoodAnalyser-MSTest\MoodAnalyser-Test1\obj\Debug\MoodAnalyser-Test1.pdb
