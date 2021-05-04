@@ -18,22 +18,31 @@ namespace MoodAnalyser_MSTest
         }
         public string Analyzer()  //Analyzer method find mood
         {
-            try
+            try  // Handling Exception
             {
-                if (this.message.ToLower().Contains("happy"))
+                if (this.message.Equals(string.Empty))
                 {
-                    return "happy";
+
+                    throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.EMPTY_EXCEPTION, "Mood should not be empty");
                 }
                 else
                 {
-                    return "sad";
+                    if (this.message.ToLower().Contains("happy"))
+                    {
+                        return "happy";
+                    }
+                    else
+                    {
+                        return "sad";
+                    }
                 }
             }
-            catch
+            catch (NullReferenceException ex)
             {
-                return "happy";
+                
+                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NULL_EXCEPTION, "Mood should not be null");
             }
-            
+
         }
     static void Main(string[] args)
         {

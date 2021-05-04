@@ -43,5 +43,47 @@ namespace MoodAnalyser_Test1
 
 
         }
+
+        [TestMethod]
+        public void Given_Nullmood_Using_CustomExpection_Return_Null()  //Method
+        {
+            MoodAnalyser mood = new MoodAnalyser(null); //Create object and arrange 
+            //string actual = "";
+            string actual = "";
+
+            try
+            {
+                actual = mood.Analyzer();    //act
+
+            }
+            catch (MoodAnalyserException exception)
+            {
+                Assert.AreEqual("Mood should not be null", exception.Message);  //Assert
+            }
+        }
+
+        /* TC 3.2:- Empty Given Empty Mood Should Throw MoodAnalysisException indicating Empty Mood 
+                   - Handle Empty Mood Scenario throw MoodAnalysisException and inform user of the EmptyMood
+                   HINT: Use Enum to EMPTY or NULL
+        */
+        [TestMethod]
+        public void Given_Emptymood_Using_CustomExpection_Return_Empty()  //Method
+        {
+
+            string actual = "";
+
+            try
+            {
+                string message = string.Empty;
+                MoodAnalyser mood = new MoodAnalyser(message); //Create object and arrange 
+                actual = mood.Analyzer();    //act
+
+            }
+            catch (MoodAnalyserException exception)
+            {
+                Assert.AreEqual("Mood should not be empty", exception.Message);  //Assert
+            }
+
+        }
     }
 }
