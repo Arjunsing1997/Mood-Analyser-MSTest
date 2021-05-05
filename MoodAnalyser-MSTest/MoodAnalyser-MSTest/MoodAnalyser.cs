@@ -10,6 +10,10 @@ namespace MoodAnalyser_MSTest
     {
         public string message;  //instance variable      
 
+        public MoodAnalyser()
+        {
+
+        }
 
         public MoodAnalyser(string message) //parameterized constructor for intilizing instance member
         {

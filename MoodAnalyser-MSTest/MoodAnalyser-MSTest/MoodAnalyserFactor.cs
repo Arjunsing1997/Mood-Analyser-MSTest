@@ -64,5 +64,23 @@ namespace MoodAnalyser_MSTest
 
             }
         }
+
+        public string InvokeAnalyzerMethod(string message, string methodName)
+        {
+            try
+            {
+                Type type = typeof(MoodAnalyser);
+
+                MethodInfo analyzerMoodInfo = type.GetMethod(methodName);
+                MoodAnalyserFactor Factory = new MoodAnalyserFactor();
+                object moodAnalyzerObject = Factory.CreateMoodAnalyzerParameterObject("MoodAnalyzerProblem.MoodAnalyzer", "MoodAnalyzer", message);
+                object mood = analyzerMoodInfo.Invoke(moodAnalyzerObject, null);
+                return mood.ToString();
+            }
+            catch (NullReferenceException)
+            {
+                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NO_SUCH_METHOD, "Method is not found");
+            }
+        }
     }
 }
