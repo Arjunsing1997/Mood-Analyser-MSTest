@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 using System.Reflection;
 
 
+
 namespace MoodAnalyser_MSTest
 {
     public class MoodAnalyserFactor
@@ -35,6 +36,32 @@ namespace MoodAnalyser_MSTest
             else
             {
                 throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.CONSTRUCTOR_NOT_FOUND, "constructor not found");//Constructor name not maching that time we run
+            }
+        }
+
+
+        public Object CreateMoodAnalyzerParameterObject(string className, string constructorName, string message)
+        {
+            Type type = typeof(MoodAnalyser);
+
+            if (type.Name.Equals(className) || type.FullName.Equals(className))
+            {
+
+                if (type.Name.Equals(constructorName))
+                {
+                    ConstructorInfo constructorObject = type.GetConstructor(new[] { typeof(string) });
+                    Object instance = constructorObject.Invoke(new object[] { message });
+                    return instance;
+                }
+                else
+                {
+                    throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NO_SUCH_METHOD, "Constructor not found");
+                }
+            }
+            else
+            {
+                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.CLASS_NOT_FOUND, "Class not found");
+
             }
         }
     }
